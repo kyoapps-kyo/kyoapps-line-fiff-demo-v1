@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoapps Demo</title>
+    <link rel="stylesheet" href="./dist/app.css">
+</head>
+
+<body class="scroll-smooth">
+    <div class="h-screen w-screen bg-fixed" style="background-image: url('./images/top-bg-image.jpg');">
+        <div class="h-screen w-screen flex flex-col items-center justify-center">
+            <div class=" flex-grow-0 pt-10 transition-all duration-1000 ">
+                <img class="h-10 w-10" src="./images/logo.png" alt="">
+            </div>
+            <div id="masthead_content"
+                class="p-12 font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex flex-1   items-center justify-center flex-col">
+                <h1 class="mb-6 text-4xl xl:text-5xl">KyoApps</h1>
+                <h2 class="mb-2 text-2xl xl:text-3xl tracking-tight">
+                    <span id="typing">App Development, done it</span>
+                </h2>
+            </div>
+            <div id="scroll_down"
+                class="z-10 mb-8 rounded-full p-1 bg-gradient-to-t from-[rgb(214,214,214)] to-transparent flex-grow-0 md:mb-6 transition-all duration-1000">
+                <a href="#page2"><img class="w-6 h-6" src="./images/scroll_down.png" alt="scroll down"></a>
+            </div>
+        </div>
+    </div>
+    <div id="page2" class="h-screen w-screen bg-[rgb(114,126,121)]">
+        <div class="h-screen w-screen flex flex-col items-center justify-center">
+            <div class=" p-10 text-4xl">skills</div>
+        </div>
+    </div>
+    <script src="./js/app.js" type="module"></script>
+</body>
+
+</html>
